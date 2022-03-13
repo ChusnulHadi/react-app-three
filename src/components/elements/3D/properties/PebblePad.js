@@ -17,7 +17,7 @@ export default function Model({ ...props }) {
       <group  rotation={[-Math.PI / 2, 0, 0]} scale={0.0075} position={[0,-5.875,0]} >
         <mesh receiveShadow geometry={nodes.Object_2.geometry} material={materials.wire_006135006} />
         <mesh geometry={nodes.Object_3.geometry} material={materials.wire_135059008} />
-        {/* <mesh  geometry={nodes.Object_4.geometry} material={materials.wire_143225087} /> */}
+        <mesh  visible={false} geometry={nodes.Object_4.geometry} material={materials.wire_143225087} />
       </group>
     </group>
   )
