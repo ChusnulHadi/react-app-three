@@ -44,25 +44,25 @@ const Workspace = () => {
                             case '1':
                                 return (
                                     <>
-                                        {/* <Aio /> */}
-                                        {/* <ResourceBox /> */}
+                                        <Aio />
+                                        <ResourceBox />
                                     </>
 
                                 );
                             case '2':
                                 return (
                                     <>
-                                       {/* <Mark1 /> */}
-                                        {/* <Barral />
-                                        <GasPump /> */}
+                                       <Mark1 />
+                                        <Barral />
+                                        <GasPump />
                                     </>
                                 );
                             case '3':
                                 return (
                                     <>
-                                        {/* <Swordgirl />
+                                        <Swordgirl />
                                         <ResourceBox />
-                                        <GasPump /> */}
+                                        <GasPump />
                                     </>
                                 );
                             default:
