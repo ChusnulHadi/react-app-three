@@ -28,9 +28,9 @@ const Workspace = () => {
                     <spotLight
                         position={[-15, 5, -5]}
                         intensity={0.5}
-                        castShadow={true}
-                        shadow-mapSize-shadowMapHeight={1000}
-                        shadow-mapSize-shadowMapWidth={1000}
+                        // castShadow={true}
+                        // shadow-mapSize-shadowMapHeight={1000}
+                        // shadow-mapSize-shadowMapWidth={1000}
                     />
                     <ambientLight intensity={0.3} />
                     <directionalLight
@@ -92,7 +92,7 @@ const Wrapper = styled.div`
     height: 100vh;
     background: #1B2D2A;
     
-    `;
+`;
 // background:white;
 
 const Element = styled.div`
