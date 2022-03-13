@@ -39,6 +39,9 @@ const Workspace = () => {
                     />
 
                     <OrbitControls enableZoom={false} />
+
+                    <PebblePad />
+                    
                     {(() => {
                         switch (state) {
                             case '1':
@@ -69,7 +72,7 @@ const Workspace = () => {
                                 return null;
                         }
                     })()}
-                    <PebblePad />
+                    
                 </Canvas>
                 <Option>
                     <button id="1" onClick={handleClick}>Player 1</button>
