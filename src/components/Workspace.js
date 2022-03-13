@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-// import { Physics } from '@react-three/cannon'
 import styled from "styled-components";
 
 import Aio from './elements/3D/characters/Aio';
@@ -39,7 +38,7 @@ const Workspace = () => {
                         intensity={1}
                     />
 
-                    <OrbitControls enableZoom={false} setPolarAngle={0} />
+                    <OrbitControls enableZoom={false} />
                     {(() => {
                         switch (state) {
                             case '1':

@@ -4,7 +4,6 @@ import { Sphere, MeshDistortMaterial } from "@react-three/drei";
 
 const AnimatedSphere = () => {
 
-
     return (
         <Sphere
             args={[1, 100, 100]}

@@ -1,9 +1,8 @@
-import { Canvas } from "@react-three/fiber"
-import { OrbitControls } from "@react-three/drei"
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 import { Link } from 'react-scroll';
-import styled from "styled-components"
-// import Button from "./elements/Button"
-// import Box from "./elements/3D/Box"
+import styled from "styled-components";
+
 import AnimatedSphere from "./elements/3D/AnimatedSphere"
 
 const Frame = () => {
@@ -30,10 +29,10 @@ const Frame = () => {
                 <OrbitControls enableZoom={false} />
 
                 <AnimatedSphere />
-                {/* <Box /> */}
+
             </Canvas>
         </Wrapper>
-    )
+    );
 }
 
 export default Frame;

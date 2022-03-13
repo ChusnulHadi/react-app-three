@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Frame from "./Frame";
 
+import Frame from "./Frame";
 import background from '../views/Frame1.svg';
 
 const GetStarted = () => {
@@ -8,7 +8,7 @@ const GetStarted = () => {
         <PageOne>
             <Frame />
         </PageOne>
-    )
+    );
 }
 
 export default GetStarted;
