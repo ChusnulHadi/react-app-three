@@ -52,7 +52,7 @@ const Workspace = () => {
                             case '2':
                                 return (
                                     <>
-                                        <Mark1 />
+                                       {/* <Mark1 /> */}
                                         <Barral />
                                         <GasPump />
                                     </>
