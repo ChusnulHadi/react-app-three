@@ -44,7 +44,7 @@ const Workspace = () => {
                             case '1':
                                 return (
                                     <>
-                                        <Aio />
+                                        {/* <Aio /> */}
                                         <ResourceBox />
                                     </>
 
